@@ -1,0 +1,37 @@
+/* Element Selector*/
+p{
+    color:red; 
+}
+
+/* Id selector gie id in that tag*/
+#p3{
+    color: skyblue;
+    font-size: 60px;
+}
+
+/*Class Selector*/
+.green-text{
+    color: springgreen;
+}
+
+/*if we can write element,id,class selector on sinle element then 1.id 2.element 3. class */
+  
+
+/*Background*/
+#bg{
+    background-image: url("../image/960x0.jpg");
+    background-size: 100% 100%;/*forfull background cover in place of % use cover but it cuts background little bit
+    and in content it doesnt disort image  */
+    /* For fixed background and text or element moving*/
+    background-attachment: fixed;
+}
+#border{
+ border-style:ridge ;
+ border-color: yellow;
+}
+#div1{
+    margin-top: 10%;
+    background-color: blueviolet;
+    /* distance between borders */
+    padding-top: 10px;
+}
